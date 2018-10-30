@@ -1,0 +1,52 @@
+html {
+    /*font-family: Arial, Helvetica, sans-serif;*/
+    height: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background: #007991; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #007991, #78ffd6); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #007991, #78ffd6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+body {
+    background: inherit;
+    color: #fff;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.thumb {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+}
+
+.intro {
+    margin-top: 40%;
+    padding: 20px;
+    background-color: rgba(219, 228, 228, 0.48);
+    border-radius: 4px;
+    -webkit-box-shadow: 1px 1px 20px 0px rgba(144, 148, 148, 0.20);
+    -moz-box-shadow: 1px 1px 20px 0px rgba(144, 148, 148, 0.20);
+    box-shadow: 1px 1px 20px 0px rgba(144, 148, 148, 0.20);
+}
+
+.share-icons {
+    margin-top: 30px;
+}
+
+.share-icons a {
+    margin: 5px;
+    font-size: 40px;
+    color: #fff;
+}
+
+.share-icons a:hover {
+    opacity: .8;
+}
